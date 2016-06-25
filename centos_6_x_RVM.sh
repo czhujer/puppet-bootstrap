@@ -42,4 +42,4 @@ rvm 1.8 do gem install libshadow --no-ri --no-rdoc
 rvm 1.8 do gem install puppet-module --no-ri --no-rdoc
 
 # Create necessary Puppet directories...
-mkdir -p /etc/puppet /var/lib /var/log /var/run
+mkdir -p /etc/puppet /var/lib /var/log /var/run /etc/puppet/hieradata
